@@ -1,0 +1,30 @@
+{
+  "name": "tailwindcss_challenge",
+  "version": "1.0.0",
+  "description": "Tailwind CSS Challenge",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build src/style.css -o public/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TijClass/Wing.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "css"
+  ],
+  "author": "B3ns44d",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TijClass/Wing/issues"
+  },
+  "homepage": "https://github.com/TijClass/Wing#readme",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
